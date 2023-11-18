@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <style>
+        body {
+            background-color: white; /* Default background color */
+            color: black; /* Default text color */
+            transition: background-color 0.5s, color 0.5s;
+        }
+
+        /* Dark mode styles */
+        body.dark-mode {
+            background-color: black;
+            color: white;
+        }
+
+        header {
+            background-color: #333; /* Dark background for header */
+            color: white;
+            padding: 1em;
+        }
+
+        /* Add more styles for your website components */
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Shopping Website</h1>
+    </header>
+
+    <!-- Add your shopping website content here -->
+
+    <script>
+        // Toggle dark mode function
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+
+    <!-- Example button to toggle dark mode -->
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+</body>
+
+</html>
